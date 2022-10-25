@@ -104,7 +104,7 @@
         <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="text" name="firstName" id="firstName" class="form-control" required/>
+                      <input type="text" name="firstName" id="firstName" class="form-control" />
                       <label class="form-label" for="firstName"> First Name</label>
                     </div>
                   </div>
@@ -112,7 +112,7 @@
 				  <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="text" name="lastName" id="lastName" class="form-control" required/>
+                      <input type="text" name="lastName" id="lastName" class="form-control" />
                       <label class="form-label" for="lastName">Last Name</label>
                     </div>
                   </div>
@@ -120,7 +120,7 @@
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="email" name="email" id="email" class="form-control" required/>
+                      <input type="email" name="email" id="email" class="form-control" />
                       <label class="form-label" for="email">Email</label>
                     </div>
                   </div>
@@ -129,7 +129,7 @@
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="number" name="phoneNumber" id="phoneNumber" class="form-control" required/>
+                      <input type="text" name="phoneNumber" id="phoneNumber" class="form-control" />
                       <label class="form-label" for="phoneNumber">Phone</label>
                     </div>
                   </div>
@@ -137,7 +137,7 @@
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="password" name="password" id="password" class="form-control" required/>
+                      <input type="password" name="password" id="password" class="form-control" />
                       <label class="form-label" for="password">Password</label>
                     </div>
                   </div>
@@ -145,7 +145,7 @@
                   <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-                      <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" required/>
+                      <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" />
                       <label class="form-label" for="confirmPassword">Repeat your password</label>
                     </div>
                   </div>

@@ -50,6 +50,7 @@ class RegisterVM {
       
     private function validateUserInput() {
         $success = false;
+		$statusMsgs = array();
 		$phoneNum = filter_input(INPUT_POST, 'phoneNumber');
 		function has_format_matching($value, $regex='//') {
 			return preg_match($regex, $value);
@@ -58,28 +59,46 @@ class RegisterVM {
         // Add validation code here. 
 		// If all validation tests pass, set $success = true. 
 		if ($this->newUser->firstName == null) { 
-			$this->errorMsg = 'First name is required.'; 
-		} else if ($this->newUser->lastName == null) { 
-			$this->errorMsg = 'Last name is required.'; 
-		} else if ($this->newUser->email == null) { 
-			$this->errorMsg = 'A valid email address is required.'; 
-		} else if ($this->newUser->phoneNumber == null) { 
-			$this->errorMsg = 'A valid phone number is required.'; 
-		} else if ($regx == false) { 
-			$this->errorMsg = 'A valid phone number is required.'; 
+			//$this->errorMsg = 
+			array_push($statusMsgs,'First name is required.'); 
+		} 
+		if ($this->newUser->lastName == null) { 
+			//$this->errorMsg = 
+			array_push($statusMsgs, 'Last name is required.'); 
+		}
+		if ($this->newUser->email == null) { 
+			//$this->errorMsg = 
+			array_push($statusMsgs,'A valid email address is required.'); 
+		}
+		if ($this->newUser->phoneNumber == null) { 
+			//$this->errorMsg = 
+			array_push($statusMsgs,'A valid phone number is required.'); 
+		}
+		if ($regx == false) { 
+			//$this->errorMsg = 
+			array_push($statusMsgs,'A valid phone number is required.'); 
 
 	  
 	//  } else if ($this->newUser->storeName == null) { 
 	 //       $this->errorMsg = 'A store name is required.'; 
-		} else if ($this->enteredPW == null) { 
-			$this->errorMsg = 'Password required.'; 
-		} else if ($this->enteredConfPW == null) { 
-			$this->errorMsg = 'Password confirmation required.'; 
-		} else if ($this->enteredConfPW != $this->enteredPW) { 
-			$this->errorMsg = 'Password and confirmation password are different.'; 
-		} else { 
+		}
+		if ($this->enteredPW == null) { 
+			//$this->errorMsg = 
+			array_push($statusMsgs,'Password required.'); 
+		}
+		if ($this->enteredConfPW == null) { 
+			//$this->errorMsg = 
+			array_push($statusMsgs,'Password confirmation required.'); 
+		}
+		if ($this->enteredConfPW != null && $this->enteredConfPW != $this->enteredPW) { 
+			//$this->errorMsg = 
+			array_push($statusMsgs,'Password and confirmation password are different.'); 
+		} 
+		if(count($statusMsgs) == 0){ 
 			$success = true; 
 		} 
+	$statusMsgs = array_unique($statusMsgs);
+	$this->statusMsg = $statusMsgs;
     return $success; 
 	} 
         
