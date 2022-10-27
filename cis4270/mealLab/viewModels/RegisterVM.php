@@ -52,10 +52,12 @@ class RegisterVM {
         $success = false;
 		$statusMsgs = array();
 		$phoneNum = filter_input(INPUT_POST, 'phoneNumber');
+		$userEmail = filter_input(INPUT_POST, 'email');
 		function has_format_matching($value, $regex='//') {
 			return preg_match($regex, $value);
 		}
 		$regx = has_format_matching($phoneNum,'/^(1?(-?\d{3})-?)?(\d{3})(-?\d{4})$/i');
+		$emailFormat = has_format_matching($userEmail,'/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/i');
         // Add validation code here. 
 		// If all validation tests pass, set $success = true. 
 		if ($this->newUser->firstName == null) { 
@@ -67,6 +69,10 @@ class RegisterVM {
 			array_push($statusMsgs, 'Last name is required.'); 
 		}
 		if ($this->newUser->email == null) { 
+			//$this->errorMsg = 
+			array_push($statusMsgs,'A valid email address is required.'); 
+		}
+		if ($emailFormat == false) { 
 			//$this->errorMsg = 
 			array_push($statusMsgs,'A valid email address is required.'); 
 		}
