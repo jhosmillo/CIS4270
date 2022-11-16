@@ -60,6 +60,7 @@
 												<li> <a href="content/dietshop/about.html"><span>About</span></a> </li>
 												<li> <a href="content/dietshop/blog.html"><span>Blog</span></a> </li>
 												<li> <a href="content/dietshop/contact.html"><span>Contact</span></a> </li>
+												<li> <a href="?ctlr=admin&amp;action=login"><span>Login</span></a> </li>
 												<li> <a href="?ctlr=admin&amp;action=register"><span>Register</span></a> </li>
 											</ul>
 										</nav><a class="responsive-menu-toggle" href="#" aria-label="Mobile menu"><i class="icon-menu-fine" aria-hidden="true"></i></a> </div>

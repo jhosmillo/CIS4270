@@ -16,20 +16,18 @@
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="content/dietshop/images/favicon.ico">
+	<link rel="shortcut icon" href="images/favicon.ico">
 	<!-- FONTS -->
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito+Sans:100,200,300,400,400italic,500,600,700,700italic,900'>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,400italic,500,600,700,700italic,900'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400italic,500,600,700,700italic,900'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,400italic,500,600,700,700italic,900'>
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!--CSS -->
 	<link rel='stylesheet' href='content/dietshop/css/structure.css'>
-	<link rel='stylesheet' href='content/dietshop/css/dietshop.css'>
-	<!-- Revolution Slider -->
-	<link rel="stylesheet" href="plugins/rs-plugin-6.custom/css/rs6.css"> </head>
+	<link rel='stylesheet' href='content/dietshop/css/dietshop.css'> </head>
 
-<body class="home page theme-betheme woocommerce-no-js template-slider content-brightness-light input-brightness-light style-default button-custom layout-full-width if-zoom no-shadows header-classic sticky-header sticky-tb-color ab-show subheader-both-center menu-link-color menuo-no-borders logo-no-margin mobile-tb-center mobile-side-slide mobile-mini-mr-lc mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-19 be-reg-2513 wishlist-active wishlist-button mobile-row-2-products mfn-variable-swatches product-zoom-disabled mfn-ajax-add-to-cart">
+<body class="blog theme-betheme woocommerce-no-js content-brightness-light input-brightness-light style-default button-custom layout-full-width if-zoom no-shadows header-classic sticky-header sticky-tb-color ab-show subheader-both-center menu-link-color menuo-no-borders logo-no-margin mobile-tb-center mobile-side-slide mobile-mini-mr-lc mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-155 be-reg-2513 wishlist-active wishlist-button mobile-row-2-products mfn-variable-swatches product-zoom-disabled mfn-ajax-add-to-cart">
 	<div id="Wrapper">
 		<div id="Header_wrapper">
 			<header id="Header">
@@ -69,44 +67,95 @@
 						</div>
 					</div>
 				</div>
-				
-				</div>
 			</header>
+			<div id="Subheader">
+				<div class="container">
+					<div class="column one">
+						<h1 class="title">Blog</h1>
+						<ul class="breadcrumbs no-link">
+							<li> <a href=".">Home</a><span><i class="icon-right-open"></i></span> </li>
+							<li> <a href="?ctlr=home&amp;action=blog">Blog</a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-		
-		
-		
-		
-		
-		<main>
-<section>
-    
-<h1 style="color:#6e2a36;">Login to Meal Lab</h1>
-    <form action="." method="post">
-		<?php echo csrf_token_tag(); ?>
-        <input type="hidden" name="ctlr" value="admin">
-        <input type="hidden" name="action" value="login">
-        <label>Email:</label>
-        <input type="text" name="username" size="25">
-        <label>&nbsp;Password:</label>
-        <input type="password" name="password" size="25">
-        <br><br>
-        <input type="submit" value="Login">
-    </form>
-
-	<p>Don't have an account yet?
-		<a href="?ctlr=admin&amp;action=register">Sign up now.</a>
-	</p>	
-    
-</section>
-</main>
-		
-		
-		
-		
-		
-		
-		
+		<div id="Content">
+			<div class="container">
+				<div class="row">
+					<div class="column_blog col-12">
+						<div class="column_filters">
+							<div class="blog_wrapper isotope_wrapper clearfix">
+								<div class="posts_group lm_wrapper col3 row photo2">
+									<div class="col-md-4 post-item isotope-item clearfix post format-standard has-post-thumbnail">
+										<div class="date_label"> October 4, 2021 </div>
+										<div class="button-love"> <a href="#" class="mfn-love" data-id="116"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">97</span></a> </div>
+										<div class="image_frame post-photo-wrapper scale-with-grid images_only">
+											<div class="image_wrapper">
+												<a href="post.html">
+													<div class="mask"></div><img width="1200" height="675" src="content/dietshop/images/dietshop-blog-pic1-1200x675.webp" class="scale-with-grid wp-post-image" loading="lazy" /></a>
+											</div>
+										</div>
+										<div class="post-desc-wrapper bg- has-custom-bg">
+											<div class="post-desc">
+												<div class="post-head"></div>
+												<div class="post-title">
+													<h4 class="entry-title"><a href="post.html">Suspendisse eget leo ac turpis egestas. Suspendisse justo augue</a></h4> </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 post-item isotope-item clearfix post format-standard has-post-thumbnail">
+										<div class="date_label"> October 4, 2021 </div>
+										<div class="button-love"> <a href="#" class="mfn-love" data-id="114"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">80</span></a> </div>
+										<div class="image_frame post-photo-wrapper scale-with-grid images_only">
+											<div class="image_wrapper">
+												<a href="post.html">
+													<div class="mask"></div><img width="1200" height="675" src="content/dietshop/images/dietshop-blog-pic2-1200x675.webp" class="scale-with-grid wp-post-image" loading="lazy" /></a>
+											</div>
+										</div>
+										<div class="post-desc-wrapper bg- has-custom-bg">
+											<div class="post-desc">
+												<div class="post-head"></div>
+												<div class="post-title">
+													<h4 class="entry-title"><a href="post.html">Etiam semper, quam nibh ut aliquet feugiat dui, porta sit amet erat</a></h4> </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 post-item isotope-item clearfix post format-standard has-post-thumbnail">
+										<div class="date_label"> October 4, 2021 </div>
+										<div class="button-love"> <a href="#" class="mfn-love" data-id="112"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">64</span></a> </div>
+										<div class="image_frame post-photo-wrapper scale-with-grid images_only">
+											<div class="image_wrapper">
+												<a href="post.html">
+													<div class="mask"></div><img width="1200" height="675" src="content/dietshop/images/dietshop-blog-pic4-1200x675.webp" class="scale-with-grid wp-post-image" loading="lazy" /></a>
+											</div>
+										</div>
+										<div class="post-desc-wrapper bg- has-custom-bg">
+											<div class="post-desc">
+												<div class="post-head"></div>
+												<div class="post-title">
+													<h4 class="entry-title"><a href="post.html">Aenean congue ac, vulputate tempus ipsum. Nam dictum sit amet, nibh</a></h4> </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<hr class="no_line" style="margin:0 auto 40px"> </div>
+					<div class="col-12">
+						<div class="blog_wrapper isotope_wrapper">
+							<div class="mfn-infinite-load-button">
+								<div class="column one pager_wrapper pager_lm"> <a class="pager_load_more button has-icon" href="#"><span class="button_icon"><i class="icon-layout"></i></span><span class="button_label">Load more</span></a> </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<hr class="no_line" style="margin:0 auto 40px"> </div>
+				</div>
+			</div>
+		</div>
 		<footer id="Footer" class="clearfix">
 			<div class="container">
 				<div class="row">
@@ -127,8 +176,8 @@
 					<div class="col-md-3">
 						<h4>Useful links</h4>
 						<ul>
-							<li style="margin-bottom:25px;"> <i class="icon-dot" style="color:#75973a;"></i><a href="content/dietshop/contact.html">Contact us</a> </li>
-							<li style="margin-bottom:25px;"> <i class="icon-dot" style="color:#75973a;"></i><a href="content/dietshop/about.html">Help &amp; About us</a> </li>
+							<li style="margin-bottom:25px;"> <i class="icon-dot" style="color:#75973a;"></i><a href="contact.html">Contact us</a> </li>
+							<li style="margin-bottom:25px;"> <i class="icon-dot" style="color:#75973a;"></i><a href="about.html">Help &amp; About us</a> </li>
 							<li style="margin-bottom:25px;"> <i class="icon-dot" style="color:#75973a;"></i><a href="#">Shipping &amp; Returns</a> </li>
 							<li style="margin-bottom:25px;"> <i class="icon-dot" style="color:#75973a;"></i><a href="#">Refund Policy</a> </li>
 							<li style="margin-bottom:25px;"> <i class="icon-dot" style="color:#75973a;"></i><a href="#">Press Room</a> </li>
@@ -189,55 +238,6 @@
 	<script src="js/translate3d.js"></script>
 	<script src="js/scripts.js"></script>
 	<script src="phpmailer/form.js"></script>
-	<script src="plugins/rs-plugin-6.custom/js/revolution.tools.min.js"></script>
-	<script src="plugins/rs-plugin-6.custom/js/rs6.min.js"></script>
-	<script type="text/javascript">
-	var revapi1, tpj;
-
-	function revinit_revslider11() {
-		jQuery(function() {
-			tpj = jQuery;
-			revapi1 = tpj("#rev_slider_1_1");
-			if(revapi1 == undefined || revapi1.revolution == undefined) {
-				revslider_showDoubleJqueryError("rev_slider_1_1");
-			} else {
-				revapi1.revolution({
-					sliderLayout: "fullwidth",
-					visibilityLevels: "1240,1240,778,778",
-					gridwidth: "1400,1400,778,778",
-					gridheight: "950,950,1100,1100",
-					spinner: "spinner12",
-					perspective: 600,
-					perspectiveType: "global",
-					spinnerclr: "#13d5ff",
-					editorheight: "950,768,1100,720",
-					responsiveLevels: "1240,1240,778,778",
-					progressBar: {
-						disableProgressBar: true
-					},
-					navigation: {
-						onHoverStop: false
-					},
-					fallbacks: {
-						allowHTML5AutoPlayOnAndroid: true
-					},
-				});
-			}
-		});
-	} // End of RevInitScript
-	var once_revslider11 = false;
-	if(document.readyState === "loading") {
-		document.addEventListener('readystatechange', function() {
-			if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider11) {
-				once_revslider11 = true;
-				revinit_revslider11();
-			}
-		});
-	} else {
-		once_revslider11 = true;
-		revinit_revslider11();
-	}
-	</script>
 </body>
 
 </html>

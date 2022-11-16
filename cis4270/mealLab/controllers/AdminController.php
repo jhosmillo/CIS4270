@@ -22,6 +22,7 @@ class AdminController extends DefaultController {
     }
     
     public function loginPOST() {
+		after_successful_logout();
     	$vm = LoginVM::getInstance();
     	if ($vm->userType === LoginVM::VALID_LOGIN) {
     		$this->listProducts();
@@ -43,6 +44,7 @@ class AdminController extends DefaultController {
         if ($vm->registrationType === RegisterVM::VALID_REGISTRATION) {
             Page::$title = 'guitarShop - New Account';
             require(APP_NON_WEB_BASE_DIR .'views/registrationSuccess.php');
+			require(APP_NON_WEB_BASE_DIR .'db/UserDAM.php');
         } else {
             Page::$title = 'guitarShop - Invalid Registration';
             require(APP_NON_WEB_BASE_DIR .'views/registrationErrors.php');
@@ -72,6 +74,7 @@ class AdminController extends DefaultController {
      * Supports views that display add new product listing form
      */
     public function showAddProduct() {
+		before_every_protected_page();
 		$vm = ProductsVM::getCategoriesInstance();
         Page::$title = 'Listing Mgr. - Add Product';
         require(APP_NON_WEB_BASE_DIR . 'views/addProduct.php');
@@ -81,6 +84,7 @@ class AdminController extends DefaultController {
      * Adds a new product listing to the database or updates an existing listing
      */
     public function addEditProduct() {
+		before_every_protected_page();
         $vmAdd = ProductsVM::getAddEditInstance();
         $vm = ProductsVM::getCategoryInstance($vmAdd->category->id);
         Page::$title = 'Listing Mgr. - ' . $vm->category->name;
@@ -95,4 +99,9 @@ class AdminController extends DefaultController {
         Page::$title = 'Listing Mgr. - Edit ' . $vm->product->name;
         require(APP_NON_WEB_BASE_DIR . 'views/editProduct.php');
     }
+	public function logout() {
+		after_successful_logout();
+		Page::$title = 'guitarShop - logout';
+		require(APP_NON_WEB_BASE_DIR .'views/index.php');
+	}
 }

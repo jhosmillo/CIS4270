@@ -47,7 +47,7 @@
 						<div class="column one">
 							<div class="top_bar_left clearfix">
 								<div class="logo">
-									<a id="logo" href="." title="BeDietShop - Betheme" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /></a>
+									<a id="logo" href="index-dietshop.html" title="BeDietShop - Betheme" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /></a>
 								</div>
 							</div>
 							<div class="top_bar_right">
@@ -56,10 +56,10 @@
 										<nav id="menu">
 											<ul id="menu-main-menu" class="menu menu-main">
 												<li class="current-menu-item"> <a href="."><span>Home</span></a> </li>
-												<li> <a href="?ctlr=home&amp;action=shop"><span>Shop</span></a> </li>
-												<li> <a href="?ctlr=home&amp;action=about"><span>About</span></a> </li>
-												<li> <a href="?ctlr=home&amp;action=blog"><span>Blog</span></a> </li>
-												<li> <a href="?ctlr=home&amp;action=contact"><span>Contact</span></a> </li>
+												<li> <a href="content/dietshop/shop.html"><span>Shop</span></a> </li>
+												<li> <a href="content/dietshop/about.html"><span>About</span></a> </li>
+												<li> <a href="content/dietshop/blog.html"><span>Blog</span></a> </li>
+												<li> <a href="content/dietshop/contact.html"><span>Contact</span></a> </li>
 												<li> <a href="?ctlr=admin&amp;action=login"><span>Login</span></a> </li>
 												<li> <a href="?ctlr=admin&amp;action=register"><span>Register</span></a> </li>
 											</ul>
@@ -79,26 +79,35 @@
 		
 		
 		<main>
-<section>
-    
-<h1 style="color:#6e2a36;">Login to Meal Lab</h1>
-    <form action="." method="post">
-		<?php echo csrf_token_tag(); ?>
-        <input type="hidden" name="ctlr" value="admin">
-        <input type="hidden" name="action" value="login">
-        <label>Email:</label>
-        <input type="text" name="username" size="25">
-        <label>&nbsp;Password:</label>
-        <input type="password" name="password" size="25">
-        <br><br>
-        <input type="submit" value="Login">
-    </form>
 
-	<p>Don't have an account yet?
-		<a href="?ctlr=admin&amp;action=register">Sign up now.</a>
-	</p>	
-    
+
+
+
+
+
+
+
+
+
+
+		<section>
+ <h1 style="color:#6e2a36;">Invalid or expired form!</h1>
+ 
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </main>
 		
 		

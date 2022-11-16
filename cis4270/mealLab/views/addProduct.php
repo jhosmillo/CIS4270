@@ -5,6 +5,7 @@
     <form action="." method="post" id="add_edit_product_form">
         <input type="hidden" name="ctlr" value="admin" />
         <input type="hidden" name="action" value="addProduct" />
+		<?php echo csrf_token_tag(); ?>
         <label>Category:</label>
         <select name="categoryId">
         <?php foreach ($vm->categories as $category) { 

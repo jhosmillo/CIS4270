@@ -25,4 +25,26 @@ class HomeController extends DefaultController {
         Page::$title = 'guitarShop - ' . $vm->product->name;
         require(APP_NON_WEB_BASE_DIR .'views/productView.php');
     }
+	
+	// Method to display the invalid form page.
+	public function invalidForm() {
+	 Page::$title = 'My Guitar Shop - Invalid Form';
+	 require(APP_NON_WEB_BASE_DIR .'views/invalidForm.php');
+	}
+	public function shop() {
+	 Page::$title = 'My Guitar Shop - Invalid Form';
+	 require(APP_NON_WEB_BASE_DIR .'views/shop.php');
+	}
+	public function about() {
+	 Page::$title = 'My Guitar Shop - Invalid Form';
+	 require(APP_NON_WEB_BASE_DIR .'views/about.php');
+	}
+	public function blog() {
+	 Page::$title = 'My Guitar Shop - Invalid Form';
+	 require(APP_NON_WEB_BASE_DIR .'views/blog.php');
+	}
+	public function contact() {
+	 Page::$title = 'My Guitar Shop - Invalid Form';
+	 require(APP_NON_WEB_BASE_DIR .'views/contact.php');
+	}
 }

@@ -16,13 +16,15 @@ class RegisterVM {
     public $newUser;
 	public $categories;
 	private $categoryDAM;
+	private $userDAM;
     
     // User type constants used for switching in the controller.
     const VALID_REGISTRATION = 'valid_registration';
     const INVALID_REGISTRATION = 'invalid_registration';
     
-    public function __construct() {
+    public function __construct() {		
 		$this->categoryDAM = new CategoryDAM();
+		$this->userDAM = new UserDAM();
         $this->errorMsg = '';
         $this->statusMsg = array();
         $this->enteredPW = '';
@@ -35,14 +37,17 @@ class RegisterVM {
     public static function getInstance() {
         $vm = new self();
         
-        $varArray = array('email' => filter_input(INPUT_POST, 'email'),
-        		'lastName' => filter_input(INPUT_POST, 'lastName'),
-        		'firstName' => filter_input(INPUT_POST, 'firstName'),
-        		'phoneNumber' => filter_input(INPUT_POST, 'phoneNumber'));
+       $varArray = array('email' => filter_input(INPUT_POST, 'email'),
+				'lastName' => filter_input(INPUT_POST, 'lastName'),
+				'firstName' => filter_input(INPUT_POST, 'firstName'),
+				'phoneNumber' => filter_input(INPUT_POST, 'phoneNumber'));
+
         $vm->newUser = new User($varArray);
         $vm->enteredPW = filter_input(INPUT_POST, 'password');
         $vm->enteredConfPW = filter_input(INPUT_POST, 'confirmPassword');
         if ($vm->validateUserInput()) {
+			$vm->newUser->password = password_hash($vm->enteredPW,PASSWORD_DEFAULT);
+			$vm->userDAM->writeUser($vm->newUser);
             $vm->registrationType = self::VALID_REGISTRATION;
         }
         return $vm;

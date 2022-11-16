@@ -31,7 +31,7 @@ class Page {
         'contact' => '<a href="index.php?ctlr=login&action=contact" title="Contact Info">Contact Us</a>',
         'appraiser contact' => '<a href="index.php?ctlr=appraiser&action=contact" title="Contact Info">Contact Us</a>',
         'login' => '<a href="index.php" title="Log In">Log In</a>',
-        'logout' => '<a href="index.php?ctlr=login&action=logout" title="Log Out">Log Out</a>');
+        'logout' => '<a href="shoppingCart.php?ctlr=login&action=logout" title="Log Out">Log Out</a>');
 
     
     // Converts an array of nav keywords to the specified array of nav links for

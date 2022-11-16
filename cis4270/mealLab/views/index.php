@@ -47,7 +47,7 @@
 						<div class="column one">
 							<div class="top_bar_left clearfix">
 								<div class="logo">
-									<a id="logo" href="index-dietshop.html" title="BeDietShop - Betheme" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /></a>
+									<a id="logo" href="." title="BeDietShop - Betheme" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /></a>
 								</div>
 							</div>
 							<div class="top_bar_right">
@@ -55,11 +55,12 @@
 									<div class="menu_wrapper">
 										<nav id="menu">
 											<ul id="menu-main-menu" class="menu menu-main">
-												<li class="current-menu-item"> <a href="index-dietshop.html"><span>Home</span></a> </li>
-												<li> <a href="content/dietshop/shop.html"><span>Shop</span></a> </li>
-												<li> <a href="content/dietshop/about.html"><span>About</span></a> </li>
-												<li> <a href="content/dietshop/blog.html"><span>Blog</span></a> </li>
-												<li> <a href="content/dietshop/contact.html"><span>Contact</span></a> </li>
+												<li class="current-menu-item"> <a href="."><span>Home</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=shop"><span>Shop</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=about"><span>About</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=blog"><span>Blog</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=contact"><span>Contact</span></a> </li>
+												<li> <a href="?ctlr=admin&amp;action=login"><span>Login</span></a> </li>
 												<li> <a href="?ctlr=admin&amp;action=register"><span>Register</span></a> </li>
 											</ul>
 										</nav><a class="responsive-menu-toggle" href="#" aria-label="Mobile menu"><i class="icon-menu-fine" aria-hidden="true"></i></a> </div>

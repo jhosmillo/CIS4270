@@ -22,10 +22,10 @@
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400italic,500,600,700,700italic,900'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,400italic,500,600,700,700italic,900'>
 	<!-- Bootstrap core CSS -->
-	<link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!--CSS -->
-	<link rel='stylesheet' href='css/structure.css'>
-	<link rel='stylesheet' href='css/dietshop.css'> </head>
+	<link rel='stylesheet' href='content/dietshop/css/structure.css'>
+	<link rel='stylesheet' href='content/dietshop/css/dietshop.css'> </head>
 
 <body class=" page theme-betheme woocommerce-no-js content-brightness-light input-brightness-light style-default button-custom layout-full-width if-zoom no-content-padding no-shadows header-classic sticky-header sticky-tb-color ab-show subheader-both-center menu-link-color menuo-no-borders logo-no-margin mobile-tb-center mobile-side-slide mobile-mini-mr-lc mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-119 be-reg-2513 wishlist-active wishlist-button mobile-row-2-products mfn-variable-swatches product-zoom-disabled mfn-ajax-add-to-cart">
 	<div id="Wrapper">
@@ -45,7 +45,7 @@
 						<div class="column one">
 							<div class="top_bar_left clearfix">
 								<div class="logo">
-									<a id="logo" href="?ctlr=home" title="BeDietShop - Betheme" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="images/dietshop.webp" data-retina="images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-sticky scale-with-grid" src="images/dietshop.webp" data-retina="images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile scale-with-grid" src="images/dietshop.webp" data-retina="images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile-sticky scale-with-grid" src="images/dietshop.webp" data-retina="images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /></a>
+									<a id="logo" href="." title="BeDietShop - Betheme" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /></a>
 								</div>
 							</div>
 							<div class="top_bar_right">
@@ -53,11 +53,11 @@
 									<div class="menu_wrapper">
 										<nav id="menu">
 											<ul id="menu-main-menu" class="menu menu-main">
-												<li class="current-menu-item"> <a href="?ctlr=home"><span>Home</span></a> </li>
-												<li> <a href="content/dietshop/shop.html"><span>Shop</span></a> </li>
-												<li> <a href="content/dietshop/about.html"><span>About</span></a> </li>
-												<li> <a href="content/dietshop/blog.html"><span>Blog</span></a> </li>
-												<li> <a href="content/dietshop/contact.html"><span>Contact</span></a> </li>
+												<li class="current-menu-item"> <a href="."><span>Home</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=shop"><span>Shop</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=about"><span>About</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=blog"><span>Blog</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=contact"><span>Contact</span></a> </li>
 												<li> <a href="?ctlr=admin&amp;action=login"><span>Login</span></a> </li>
 												<li> <a href="?ctlr=admin&amp;action=register"><span>Register</span></a> </li>
 											</ul>
@@ -70,7 +70,7 @@
 			</header>
 		</div>
 		<div id="Content">
-			<div class="section mcb-section bg-cover" style="padding-top:240px;padding-bottom:200px;background-image:url(images/dietshop-section-bg2.webp);background-repeat:no-repeat;background-position:center">
+			<div class="section mcb-section bg-cover" style="padding-top:240px;padding-bottom:200px;background-image:url(content/dietshop/images/dietshop-section-bg2.webp);background-repeat:no-repeat;background-position:center">
 				<div class="container">
 					<div class="row" data-col="one">
 						<div class="col-12 text-center">
@@ -83,21 +83,21 @@
 					<div class="row">
 						<div class="col-md-6 valign-top clearfix" data-col="one-second" style="padding:0 4%">
 							<div class="image_frame image_item no_link scale-with-grid no_border">
-								<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-home-pic4.webp" alt="dietshop-home-pic4" width="780" height="1100" /> </div>
+								<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-home-pic4.webp" alt="dietshop-home-pic4" width="780" height="1100" /> </div>
 							</div>
 						</div>
 						<div class="col-md-6 column-margin-20px valign-middle clearfix" data-col="one-second" style="padding:0 4%">
 							<div class="row">
 								<div class="col-md-8">
 									<div class="column_attr clearfix mobile_align_center">
-										<h2 style="color:#fffbf3;">Our all dishes are both Delicious and Healthy <img class="scale-with-grid" src="images/dietshop-icon5.webp"/></h2> </div>
+										<h2 style="color:#fffbf3;">Our all dishes are both Delicious and Healthy <img class="scale-with-grid" src="content/dietshop/images/dietshop-icon5.webp"/></h2> </div>
 								</div>
 								<div class="col-12">
 									<hr class="no_line" style="margin:0 auto 40px"> </div>
 								<div class="col-12">
 									<div class="column_attr clearfix mobile_align_center">
 										<p style="color:#fffbf3;"> Non odio lacinia consequat lorem etiam ut pellentesque ornare ut semper fringilla nec neque elementum himenaeos fermentum tincidunt quisque per nisi ligula ut nam justo aptent sagittis nullam potenti aptent tellus nunc mattis rhoncus commodo mauris dolor vulputate venenatis ipsum fusce volutpat erat vehicula rutrum posuere aliquet donec diam neque morbi habitant augue morbi venenatis. </p>
-										<hr class="no_line" style="margin: 0 auto 30px auto" /> <img class="scale-with-grid" style="margin: 0 30px 15px 0;" src="images/dietshop-home-pic5.webp" /> </div>
+										<hr class="no_line" style="margin: 0 auto 30px auto" /> <img class="scale-with-grid" style="margin: 0 30px 15px 0;" src="content/dietshop/images/dietshop-home-pic5.webp" /> </div>
 								</div>
 							</div>
 						</div>
@@ -110,14 +110,14 @@
 						<div class="col-12 text-center" data-col="one">
 							<h2>Our services are top quality
 														<br/>
-														<span style="color: #6e2a36;">and we're doing our best for you happiness and health</span><img class="scale-with-grid" src="images/dietshop-icon3.webp"/></h2> </div>
+														<span style="color: #6e2a36;">and we're doing our best for you happiness and health</span><img class="scale-with-grid" src="content/dietshop/images/dietshop-icon3.webp"/></h2> </div>
 						<div class="col-12">
 							<hr class="no_line" style="margin:0 auto 30px"> </div>
 						<div class="col-12" data-col="one" style="padding:20px 0">
 							<div class="row">
 								<div class="col-md-3">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-about-pic1.webp" alt="dietshop-about-pic1" width="258" height="329" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-about-pic1.webp" alt="dietshop-about-pic1" width="258" height="329" /> </div>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -141,7 +141,7 @@
 								</div>
 								<div class="col-md-3">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-about-pic2.webp" alt="dietshop-about-pic2" width="269" height="322" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-about-pic2.webp" alt="dietshop-about-pic2" width="269" height="322" /> </div>
 									</div>
 								</div>
 							</div>
@@ -150,12 +150,12 @@
 							<div class="row">
 								<div class="col-md-4">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-about-pic3.webp" alt="dietshop-about-pic3" width="419" height="290" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-about-pic3.webp" alt="dietshop-about-pic3" width="419" height="290" /> </div>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="column_attr clearfix mobile_align_center" style="padding:30px 2% 0;">
-										<h5>3. <span style="color: #6e2a36;">Enjoy good and healthy life </span><img class="scale-with-grid" src="images/dietshop-icon4.webp"/></h5>
+										<h5>3. <span style="color: #6e2a36;">Enjoy good and healthy life </span><img class="scale-with-grid" src="content/dietshop/images/dietshop-icon4.webp"/></h5>
 										<p> Aliqua. Ut enim ad minim veniam, quis exercitation ullaais. Potenti nisl viverra suspendisse senectus pulvinar pulvinar commodo class inceptos turpis cubilia gravida hendrerit per fusce fermentum augue eu ullamcorper tempor himenaeos sociosqu primis himenaeos nisl venenatis facilisis malesuada eleifend commodo laoreet quis imperdiet libero ipsum cubilia curabitur ornare interdum suscipit faucibus vel netus sagittis. </p>
 									</div>
 								</div>
@@ -173,7 +173,7 @@
 							<div class="row no-gutters">
 								<div class="col-md-2">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-home-icon1.webp" alt="dietshop-home-icon1" width="43" height="55" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-home-icon1.webp" alt="dietshop-home-icon1" width="43" height="55" /> </div>
 									</div>
 								</div>
 								<div class="col-md-10">
@@ -187,7 +187,7 @@
 							<div class="row no-gutters">
 								<div class="col-md-2">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-home-icon2.webp" alt="dietshop-home-icon2" width="55" height="55" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-home-icon2.webp" alt="dietshop-home-icon2" width="55" height="55" /> </div>
 									</div>
 								</div>
 								<div class="col-md-10">
@@ -201,7 +201,7 @@
 							<div class="row no-gutters">
 								<div class="col-md-2">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-home-icon3.webp" alt="dietshop-home-icon3" width="55" height="55" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-home-icon3.webp" alt="dietshop-home-icon3" width="55" height="55" /> </div>
 									</div>
 								</div>
 								<div class="col-md-10">
@@ -217,7 +217,7 @@
 							<div class="row no-gutters">
 								<div class="col-md-2">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-home-icon4.webp" alt="dietshop-home-icon4" width="55" height="55" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-home-icon4.webp" alt="dietshop-home-icon4" width="55" height="55" /> </div>
 									</div>
 								</div>
 								<div class="col-md-10">
@@ -231,7 +231,7 @@
 							<div class="row no-gutters">
 								<div class="col-md-2">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-home-icon5.webp" alt="dietshop-home-icon5" width="55" height="55" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-home-icon5.webp" alt="dietshop-home-icon5" width="55" height="55" /> </div>
 									</div>
 								</div>
 								<div class="col-md-10">
@@ -245,7 +245,7 @@
 							<div class="row no-gutters">
 								<div class="col-md-2">
 									<div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-										<div class="image_wrapper"><img class="scale-with-grid" src="images/dietshop-home-icon6.webp" alt="dietshop-home-icon6" width="55" height="55" /> </div>
+										<div class="image_wrapper"><img class="scale-with-grid" src="content/dietshop/images/dietshop-home-icon6.webp" alt="dietshop-home-icon6" width="55" height="55" /> </div>
 									</div>
 								</div>
 								<div class="col-md-10">
@@ -264,7 +264,7 @@
 				<div class="container">
 					<div class="row no-gutters" data-col="one" style=";border-radius: 20px; overflow: hidden;">
 						<div class="col-md-6">
-							<div class="column_attr clearfix bg-cover" style="background-image:url('images/dietshop-slider-pic1.webp');background-repeat:no-repeat;background-position:center;">
+							<div class="column_attr clearfix bg-cover" style="background-image:url('content/dietshop/images/dietshop-slider-pic1.webp');background-repeat:no-repeat;background-position:center;">
 								<hr class="no_line" style="margin: 0 auto 326px auto" /> </div>
 						</div>
 						<div class="col-md-6">
@@ -327,7 +327,7 @@
 						<hr class="no_line" style="margin:0 auto 20px">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
 						<hr class="no_line" style="margin:0 auto 70px">
-						<p style="font-weight: 600;"> We accept:<img loading="lazy" style="margin: 0 25px; position: relative;" src="images/dietshop-footer-icon1.webp" class="wp-image-32 scale-with-grid" width="304" height="25" /> </p>
+						<p style="font-weight: 600;"> We accept:<img loading="lazy" style="margin: 0 25px; position: relative;" src="content/dietshop/images/dietshop-footer-icon1.webp" class="wp-image-32 scale-with-grid" width="304" height="25" /> </p>
 					</div>
 					<div class="col-12">
 						<hr class="no_line" style="margin:0 auto 70px"> </div>
@@ -348,15 +348,15 @@
 		<div class="menu_wrapper"></div>
 	</div>
 	<!-- JS -->
-	<script src="../../js/jquery-3.6.0.min.js"></script>
-	<script src="../../js/jquery-migrate-3.3.2.js"></script>
-	<script src="../../js/mfn.menu.js"></script>
-	<script src="../../js/jquery.plugins.js"></script>
-	<script src="../../js/jquery.jplayer.min.js"></script>
-	<script src="../../js/animations/animations.js"></script>
-	<script src="../../js/translate3d.js"></script>
-	<script src="../../js/scripts.js"></script>
-	<script src="../../phpmailer/form.js"></script>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery-migrate-3.3.2.js"></script>
+	<script src="js/mfn.menu.js"></script>
+	<script src="js/jquery.plugins.js"></script>
+	<script src="js/jquery.jplayer.min.js"></script>
+	<script src="js/animations/animations.js"></script>
+	<script src="js/translate3d.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="phpmailer/form.js"></script>
 </body>
 
 </html>

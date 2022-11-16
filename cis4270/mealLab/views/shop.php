@@ -22,10 +22,10 @@
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400italic,500,600,700,700italic,900'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,400italic,500,600,700,700italic,900'>
 	<!-- Bootstrap core CSS -->
-	<link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!--CSS -->
-	<link rel='stylesheet' href='css/structure.css'>
-	<link rel='stylesheet' href='css/dietshop.css'> </head>
+	<link rel='stylesheet' href='content/dietshop/css/structure.css'>
+	<link rel='stylesheet' href='content/dietshop/css/dietshop.css'> </head>
 
 <body class="archive post-type-archive post-type-archive-product theme-betheme woocommerce-shop woocommerce woocommerce-page woocommerce-no-js with_aside aside_left content-brightness-light input-brightness-light style-default button-custom layout-full-width if-zoom no-shadows header-classic sticky-header sticky-tb-color ab-show subheader-both-center menu-link-color menuo-no-borders logo-no-margin mobile-tb-center mobile-side-slide mobile-mini-mr-lc mobile-sticky mobile-header-mini mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-8 be-reg-2513 wishlist-active wishlist-button mobile-row-2-products mfn-variable-swatches product-zoom-disabled mfn-ajax-add-to-cart">
 	<div id="Wrapper">
@@ -45,7 +45,7 @@
 						<div class="column one">
 							<div class="top_bar_left clearfix">
 								<div class="logo">
-									<a id="logo" href="../../index-dietshop.html" title="BeDietShop - Betheme" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="images/dietshop.webp" data-retina="images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-sticky scale-with-grid" src="images/dietshop.webp" data-retina="images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile scale-with-grid" src="images/dietshop.webp" data-retina="images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile-sticky scale-with-grid" src="images/dietshop.webp" data-retina="images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /></a>
+									<a id="logo" href="." title="BeDietShop - Betheme" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /><img class="logo-mobile-sticky scale-with-grid" src="content/dietshop/images/dietshop.webp" data-retina="content/dietshop/images/retina-dietshop-1.webp" data-height="40" alt="dietshop" /></a>
 								</div>
 							</div>
 							<div class="top_bar_right">
@@ -53,11 +53,11 @@
 									<div class="menu_wrapper">
 										<nav id="menu">
 											<ul id="menu-main-menu" class="menu menu-main">
-												<li class="current-menu-item"> <a href="?ctlr=home"><span>Home</span></a> </li>
-												<li> <a href="content/dietshop/shop.html"><span>Shop</span></a> </li>
-												<li> <a href="content/dietshop/about.html"><span>About</span></a> </li>
-												<li> <a href="content/dietshop/blog.html"><span>Blog</span></a> </li>
-												<li> <a href="content/dietshop/contact.html"><span>Contact</span></a> </li>
+												<li class="current-menu-item"> <a href="."><span>Home</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=shop"><span>Shop</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=about"><span>About</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=blog"><span>Blog</span></a> </li>
+												<li> <a href="?ctlr=home&amp;action=contact"><span>Contact</span></a> </li>
 												<li> <a href="?ctlr=admin&amp;action=login"><span>Login</span></a> </li>
 												<li> <a href="?ctlr=admin&amp;action=register"><span>Register</span></a> </li>
 											</ul>
@@ -73,7 +73,7 @@
 					<div class="column one">
 						<h1 class="title">Shop</h1>
 						<ul class="breadcrumbs woocommerce-breadcrumb">
-							<li> <a href="../../index-dietshop.html">Home</a><span><i class="icon-right-open"></i></span> </li>
+							<li> <a href=".">Home</a><span><i class="icon-right-open"></i></span> </li>
 							<li> Shop<span><i class="icon-right-open"></i></span> </li>
 						</ul>
 					</div>
@@ -94,7 +94,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');">
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic5-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic5-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -114,7 +114,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');">
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic6-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic6-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -134,7 +134,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');"> <span class="onsale onsale-label">-30%</span>
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic1-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic1-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -154,7 +154,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');"> <span class="onsale onsale-label">-13%</span>
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic4-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic4-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -174,7 +174,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');">
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic8-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic8-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -194,7 +194,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');"> <span class="onsale onsale-label">-13%</span>
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic3-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic3-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -214,7 +214,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');">
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic7-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic7-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -234,7 +234,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');"> <span class="onsale onsale-label">-29%</span>
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic2-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic2-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -254,7 +254,7 @@
 									<div class="image_frame scale-with-grid product-loop-thumb" ontouchstart="this.classList.toggle('hover');">
 										<div class="image_wrapper">
 											<a href="product.html">
-												<div class="mask"></div><img width="500" height="500" src="images/dietshop-product-pic9-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
+												<div class="mask"></div><img width="500" height="500" src="content/dietshop/images/dietshop-product-pic9-500x500.webp" class="image-primary scale-with-grid wp-post-image" loading="lazy" /></a>
 										</div><a href="product.html"><span class="product-loading-icon added-cart"></span></a> </div>
 								</div>
 								<div class="desc">
@@ -326,7 +326,7 @@
 						<hr class="no_line" style="margin:0 auto 20px">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
 						<hr class="no_line" style="margin:0 auto 70px">
-						<p style="font-weight: 600;"> We accept:<img loading="lazy" style="margin: 0 25px; position: relative;" src="images/dietshop-footer-icon1.webp" class="wp-image-32 scale-with-grid" width="304" height="25" /> </p>
+						<p style="font-weight: 600;"> We accept:<img loading="lazy" style="margin: 0 25px; position: relative;" src="content/dietshop/images/dietshop-footer-icon1.webp" class="wp-image-32 scale-with-grid" width="304" height="25" /> </p>
 					</div>
 					<div class="col-12">
 						<hr class="no_line" style="margin:0 auto 70px"> </div>
@@ -347,15 +347,15 @@
 		<div class="menu_wrapper"></div>
 	</div>
 	<!-- JS -->
-	<script src="../../js/jquery-3.6.0.min.js"></script>
-	<script src="../../js/jquery-migrate-3.3.2.js"></script>
-	<script src="../../js/mfn.menu.js"></script>
-	<script src="../../js/jquery.plugins.js"></script>
-	<script src="../../js/jquery.jplayer.min.js"></script>
-	<script src="../../js/animations/animations.js"></script>
-	<script src="../../js/translate3d.js"></script>
-	<script src="../../js/scripts.js"></script>
-	<script src="../../phpmailer/form.js"></script>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery-migrate-3.3.2.js"></script>
+	<script src="js/mfn.menu.js"></script>
+	<script src="js/jquery.plugins.js"></script>
+	<script src="js/jquery.jplayer.min.js"></script>
+	<script src="js/animations/animations.js"></script>
+	<script src="js/translate3d.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="phpmailer/form.js"></script>
 </body>
 
 </html>
