@@ -4,6 +4,7 @@
     <h1>My Listings</h1>
     <p>To view, edit, or delete a product, select the product.</p>
     <p>To add a product, select the "Add Product" link.</p>
+    <?php echo csrf_token_tag(); ?>
     <?php if (count($vm->products) == 0) { ?>
         <ul><li>There are no products for this category.</li></ul>
     <?php } else { ?>
